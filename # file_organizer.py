@@ -9,11 +9,11 @@ from datetime import datetime
 
 # Directory to scan for files to organize
 # Example: pathlib.Path.home() / "Downloads"
-SOURCE_DIR = pathlib.Path(r"C:\Users\shins\Desktop\ToSort") # <--- CHANGE THIS to your source folder
+SOURCE_DIR = pathlib.Path(r"C:\Users\UserName\Desktop\ToSort") # <--- CHANGE THIS to your source folder
 
 # Directory where organized folders will be created
 # Example: pathlib.Path.home() / "Organized Files"
-DEST_DIR = pathlib.Path(r"C:\Users\shins\Desktop\Organized") # <--- CHANGE THIS to your destination folder
+DEST_DIR = pathlib.Path(r"C:\Users\UserName\Desktop\Organized") # <--- CHANGE THIS to your destination folder
 
 # Path for the CSV log file
 LOG_FILE = DEST_DIR / "organization_log.csv"
